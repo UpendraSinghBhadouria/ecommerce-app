@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import ProductCard from '../components/ProductCard'
 import Categories from '../components/Categories'
-import { useDispatch, useSelector } from 'react-redux';
-import { fetchProducts } from '../features/ProductSlice';
 
 const Products = () => {
 

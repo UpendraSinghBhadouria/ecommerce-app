@@ -14,6 +14,7 @@ const CategoryProducts = () => {
         }
 
         fetchProducts();
+        // eslint-disable-next-line 
     }, [])
 
     if (products.length === 0) return <div>Loading...</div>
